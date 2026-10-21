@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Defense Command Center</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <span class="tag">Cybersecurity Portfolio</span>
+        <h1>Cyber Defense Command Center</h1>
+        <p>
+          Security operations, threat awareness, defensive hardening, and risk reduction
+          presented in a polished GitHub-ready profile project.
+        </p>
+        <div class="cta-row">
+          <a href="README.md" class="btn primary">View Repo</a>
+          <a href="scripts/security_dashboard.py" class="btn secondary">Run Dashboard</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="grid stats">
+        <div class="card">
+          <h3>Risk Posture</h3>
+          <p>Moderate</p>
+        </div>
+        <div class="card">
+          <h3>Security Score</h3>
+          <p>82/100</p>
+        </div>
+        <div class="card">
+          <h3>Monitoring</h3>
+          <p>Enabled</p>
+        </div>
+        <div class="card">
+          <h3>Readiness</h3>
+          <p>Prepared</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Core Focus Areas</h2>
+        <div class="focus-grid">
+          <div class="focus-item">
+            <h4>Threat Intelligence</h4>
+            <p>Monitoring trends, actor behavior, and active security risks.</p>
+          </div>
+          <div class="focus-item">
+            <h4>Defensive Controls</h4>
+            <p>Hardening identity, networks, systems, and access paths.</p>
+          </div>
+          <div class="focus-item">
+            <h4>Monitoring & Alerting</h4>
+            <p>Reviewing abnormal activity and handling escalations quickly.</p>
+          </div>
+          <div class="focus-item">
+            <h4>Resilience Planning</h4>
+            <p>Preparing for recovery, response, and operational continuity.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Recommended Actions</h2>
+        <ul class="checklist">
+          <li>Enforce MFA and just-in-time privilege access</li>
+          <li>Rotate exposed credentials and secret material</li>
+          <li>Patch vulnerable services and dependencies</li>
+          <li>Review logs and authentication events regularly</li>
+          <li>Validate backups and incident response plans</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
