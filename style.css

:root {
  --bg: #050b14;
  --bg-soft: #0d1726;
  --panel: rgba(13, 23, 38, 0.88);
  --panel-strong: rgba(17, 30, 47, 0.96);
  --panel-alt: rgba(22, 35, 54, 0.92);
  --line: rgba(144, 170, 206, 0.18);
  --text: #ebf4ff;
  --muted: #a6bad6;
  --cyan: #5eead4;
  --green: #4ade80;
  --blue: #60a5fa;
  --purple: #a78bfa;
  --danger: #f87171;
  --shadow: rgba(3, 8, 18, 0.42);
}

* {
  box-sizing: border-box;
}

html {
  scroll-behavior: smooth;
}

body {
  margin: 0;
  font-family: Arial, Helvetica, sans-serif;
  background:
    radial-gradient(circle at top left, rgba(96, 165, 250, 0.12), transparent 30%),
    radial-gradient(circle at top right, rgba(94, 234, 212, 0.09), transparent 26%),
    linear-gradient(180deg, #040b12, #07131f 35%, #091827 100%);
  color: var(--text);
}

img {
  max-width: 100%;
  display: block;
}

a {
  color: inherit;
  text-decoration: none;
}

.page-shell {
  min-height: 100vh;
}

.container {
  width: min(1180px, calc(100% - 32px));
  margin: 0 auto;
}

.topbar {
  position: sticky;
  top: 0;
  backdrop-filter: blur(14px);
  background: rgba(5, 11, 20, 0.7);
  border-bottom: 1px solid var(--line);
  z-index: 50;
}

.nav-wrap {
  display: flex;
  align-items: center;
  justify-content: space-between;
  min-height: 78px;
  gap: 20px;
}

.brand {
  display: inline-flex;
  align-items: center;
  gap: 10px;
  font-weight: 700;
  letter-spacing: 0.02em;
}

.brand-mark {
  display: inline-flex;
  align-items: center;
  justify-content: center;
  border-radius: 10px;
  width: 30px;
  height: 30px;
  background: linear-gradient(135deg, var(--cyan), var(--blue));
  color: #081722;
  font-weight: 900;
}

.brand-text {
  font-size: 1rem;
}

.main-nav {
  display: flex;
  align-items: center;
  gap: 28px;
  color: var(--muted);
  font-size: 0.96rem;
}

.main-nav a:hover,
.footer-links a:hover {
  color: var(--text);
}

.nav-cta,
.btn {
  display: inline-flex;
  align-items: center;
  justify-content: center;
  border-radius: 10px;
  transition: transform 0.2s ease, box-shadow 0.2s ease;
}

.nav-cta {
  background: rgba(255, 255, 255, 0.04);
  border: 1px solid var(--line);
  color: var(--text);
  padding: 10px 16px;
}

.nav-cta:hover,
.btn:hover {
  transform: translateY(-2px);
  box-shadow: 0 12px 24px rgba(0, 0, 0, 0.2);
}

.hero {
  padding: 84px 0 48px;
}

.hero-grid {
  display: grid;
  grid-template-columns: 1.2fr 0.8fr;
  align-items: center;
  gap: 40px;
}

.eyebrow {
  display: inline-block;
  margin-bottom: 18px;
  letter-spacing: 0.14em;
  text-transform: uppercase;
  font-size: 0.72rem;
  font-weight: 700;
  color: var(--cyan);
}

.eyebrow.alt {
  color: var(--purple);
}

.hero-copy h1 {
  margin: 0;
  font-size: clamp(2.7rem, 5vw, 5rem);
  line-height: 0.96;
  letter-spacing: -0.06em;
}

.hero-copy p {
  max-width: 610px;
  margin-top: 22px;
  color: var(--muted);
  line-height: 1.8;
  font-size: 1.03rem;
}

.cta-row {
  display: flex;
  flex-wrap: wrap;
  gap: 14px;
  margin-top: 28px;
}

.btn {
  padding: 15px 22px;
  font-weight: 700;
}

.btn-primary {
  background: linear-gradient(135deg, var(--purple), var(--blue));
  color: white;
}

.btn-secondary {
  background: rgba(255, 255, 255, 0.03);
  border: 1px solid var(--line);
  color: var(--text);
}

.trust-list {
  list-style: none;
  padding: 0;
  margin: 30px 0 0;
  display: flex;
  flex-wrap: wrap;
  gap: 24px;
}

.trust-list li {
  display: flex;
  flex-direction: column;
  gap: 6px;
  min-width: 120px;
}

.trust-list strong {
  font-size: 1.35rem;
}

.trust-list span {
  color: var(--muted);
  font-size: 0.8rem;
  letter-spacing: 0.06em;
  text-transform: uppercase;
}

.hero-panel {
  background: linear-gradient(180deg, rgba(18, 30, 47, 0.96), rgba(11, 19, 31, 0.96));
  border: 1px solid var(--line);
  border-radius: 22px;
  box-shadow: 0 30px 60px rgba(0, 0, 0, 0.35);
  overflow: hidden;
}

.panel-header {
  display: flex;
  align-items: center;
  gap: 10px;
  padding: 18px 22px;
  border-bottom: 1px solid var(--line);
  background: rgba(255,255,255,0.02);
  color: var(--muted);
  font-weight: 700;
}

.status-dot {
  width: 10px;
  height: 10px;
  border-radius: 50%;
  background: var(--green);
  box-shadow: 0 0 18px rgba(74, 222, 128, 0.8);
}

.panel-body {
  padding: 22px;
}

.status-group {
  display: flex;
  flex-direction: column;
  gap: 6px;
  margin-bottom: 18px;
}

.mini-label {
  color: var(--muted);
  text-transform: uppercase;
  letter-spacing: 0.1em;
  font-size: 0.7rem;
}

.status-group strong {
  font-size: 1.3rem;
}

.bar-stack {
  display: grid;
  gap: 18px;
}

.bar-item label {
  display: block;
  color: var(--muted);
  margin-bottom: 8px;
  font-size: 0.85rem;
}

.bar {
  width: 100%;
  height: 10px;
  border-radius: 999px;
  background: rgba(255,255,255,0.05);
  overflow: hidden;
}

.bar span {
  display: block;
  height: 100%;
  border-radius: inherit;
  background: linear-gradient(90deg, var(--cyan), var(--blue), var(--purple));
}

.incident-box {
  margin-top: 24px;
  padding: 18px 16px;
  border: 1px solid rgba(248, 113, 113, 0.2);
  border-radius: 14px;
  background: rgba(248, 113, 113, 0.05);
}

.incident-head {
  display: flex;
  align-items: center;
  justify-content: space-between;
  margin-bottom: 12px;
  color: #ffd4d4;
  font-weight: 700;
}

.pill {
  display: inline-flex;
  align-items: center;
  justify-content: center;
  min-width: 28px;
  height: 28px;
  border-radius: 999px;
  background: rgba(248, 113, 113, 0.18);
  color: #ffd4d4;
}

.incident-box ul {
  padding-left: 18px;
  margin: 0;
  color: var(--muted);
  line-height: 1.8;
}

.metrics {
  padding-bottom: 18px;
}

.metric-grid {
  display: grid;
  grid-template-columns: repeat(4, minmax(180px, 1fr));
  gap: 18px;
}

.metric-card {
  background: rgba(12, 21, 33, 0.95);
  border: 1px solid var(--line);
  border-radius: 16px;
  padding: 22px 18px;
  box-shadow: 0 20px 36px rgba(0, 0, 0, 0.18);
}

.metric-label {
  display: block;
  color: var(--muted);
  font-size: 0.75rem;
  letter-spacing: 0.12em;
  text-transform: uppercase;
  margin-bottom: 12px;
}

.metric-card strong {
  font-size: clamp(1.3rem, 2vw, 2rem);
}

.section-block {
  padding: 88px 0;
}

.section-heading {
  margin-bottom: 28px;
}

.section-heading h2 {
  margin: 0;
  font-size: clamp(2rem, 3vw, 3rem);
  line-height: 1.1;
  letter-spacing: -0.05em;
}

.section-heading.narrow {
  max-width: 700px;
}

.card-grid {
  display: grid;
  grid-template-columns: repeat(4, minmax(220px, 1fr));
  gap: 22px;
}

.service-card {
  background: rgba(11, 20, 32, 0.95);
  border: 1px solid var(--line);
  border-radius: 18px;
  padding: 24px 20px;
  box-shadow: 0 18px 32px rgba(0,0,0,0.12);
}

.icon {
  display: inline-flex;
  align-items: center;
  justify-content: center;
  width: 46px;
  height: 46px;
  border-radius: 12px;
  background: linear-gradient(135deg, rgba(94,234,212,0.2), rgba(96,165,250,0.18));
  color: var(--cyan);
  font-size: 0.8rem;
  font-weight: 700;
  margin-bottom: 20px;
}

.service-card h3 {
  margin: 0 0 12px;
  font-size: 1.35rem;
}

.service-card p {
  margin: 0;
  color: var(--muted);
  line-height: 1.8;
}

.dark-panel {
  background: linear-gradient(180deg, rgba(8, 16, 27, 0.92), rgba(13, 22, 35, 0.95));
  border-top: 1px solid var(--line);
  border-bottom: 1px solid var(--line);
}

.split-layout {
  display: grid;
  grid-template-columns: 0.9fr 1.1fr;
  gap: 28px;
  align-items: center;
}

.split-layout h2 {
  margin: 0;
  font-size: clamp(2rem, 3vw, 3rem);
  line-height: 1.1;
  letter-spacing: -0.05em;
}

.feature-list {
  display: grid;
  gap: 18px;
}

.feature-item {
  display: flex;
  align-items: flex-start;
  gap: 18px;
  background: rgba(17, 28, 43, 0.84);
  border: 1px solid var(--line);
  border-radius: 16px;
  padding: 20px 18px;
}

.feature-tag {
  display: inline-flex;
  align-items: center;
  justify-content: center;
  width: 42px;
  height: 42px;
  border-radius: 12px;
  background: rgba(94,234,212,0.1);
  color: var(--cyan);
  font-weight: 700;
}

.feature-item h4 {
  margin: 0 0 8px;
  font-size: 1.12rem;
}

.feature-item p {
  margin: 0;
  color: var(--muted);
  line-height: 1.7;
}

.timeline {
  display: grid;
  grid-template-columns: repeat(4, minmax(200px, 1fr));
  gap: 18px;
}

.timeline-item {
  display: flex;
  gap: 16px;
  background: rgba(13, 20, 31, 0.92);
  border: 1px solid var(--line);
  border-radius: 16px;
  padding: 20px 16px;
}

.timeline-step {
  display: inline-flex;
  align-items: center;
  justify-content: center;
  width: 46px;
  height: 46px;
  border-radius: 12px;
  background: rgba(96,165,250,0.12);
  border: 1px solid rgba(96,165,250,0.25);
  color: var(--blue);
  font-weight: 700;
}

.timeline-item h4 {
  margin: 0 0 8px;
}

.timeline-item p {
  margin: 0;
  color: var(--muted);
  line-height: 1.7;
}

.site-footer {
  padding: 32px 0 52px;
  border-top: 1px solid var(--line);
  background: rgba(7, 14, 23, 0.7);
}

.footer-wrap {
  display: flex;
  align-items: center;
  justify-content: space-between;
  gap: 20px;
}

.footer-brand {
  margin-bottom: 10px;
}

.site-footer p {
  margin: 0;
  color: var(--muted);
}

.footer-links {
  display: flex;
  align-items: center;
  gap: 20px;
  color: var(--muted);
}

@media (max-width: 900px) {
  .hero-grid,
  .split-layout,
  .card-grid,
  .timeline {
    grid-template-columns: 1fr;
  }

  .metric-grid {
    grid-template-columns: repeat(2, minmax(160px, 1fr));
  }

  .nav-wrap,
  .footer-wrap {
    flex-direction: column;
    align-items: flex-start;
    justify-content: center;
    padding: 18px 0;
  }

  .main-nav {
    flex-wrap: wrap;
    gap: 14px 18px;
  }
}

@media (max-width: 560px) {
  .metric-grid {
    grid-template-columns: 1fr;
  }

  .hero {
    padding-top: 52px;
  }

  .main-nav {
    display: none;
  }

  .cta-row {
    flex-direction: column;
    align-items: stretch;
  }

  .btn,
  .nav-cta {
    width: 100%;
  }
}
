@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aegis Defense | Cybersecurity Portfolio</title>
+    <meta
+      name="description"
+      content="Aegis Defense is a cybersecurity portfolio homepage showcasing defense operations, threat intelligence, and secure infrastructure practices."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav-wrap">
+          <div class="brand" aria-label="Aegis Defense logo">
+            <span class="brand-mark">A</span>
+            <span class="brand-text">Aegis Defense</span>
+          </div>
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#solutions">Solutions</a>
+            <a href="#capabilities">Capabilities</a>
+            <a href="#operations">Operations</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a href="README.md" class="nav-cta">View Repo</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <div class="eyebrow">CYBER DEFENSE PORTFOLIO</div>
+              <h1>Protecting digital infrastructure with precision.</h1>
+              <p>
+                Aegis Defense delivers modern security operations, threat awareness,
+                and resilient protection for digital environments that must remain
+                secure, observable, and ready for action.
+              </p>
+              <div class="cta-row">
+                <a href="#solutions" class="btn btn-primary">Explore Services</a>
+                <a href="scripts/security_dashboard.py" class="btn btn-secondary">Run Dashboard</a>
+              </div>
+              <ul class="trust-list" aria-label="Trust metrics">
+                <li><strong>24/7</strong><span>Monitoring</span></li>
+                <li><strong>99.9%</strong><span>Readiness</span></li>
+                <li><strong>Zero</strong><span>Compromise</span></li>
+              </ul>
+            </div>
+
+            <div class="hero-panel" aria-label="Security operations overview">
+              <div class="panel-header">
+                <span class="status-dot"></span>
+                <span>Threat Command</span>
+              </div>
+
+              <div class="panel-body">
+                <div class="status-group">
+                  <span class="mini-label">Risk posture</span>
+                  <strong>Moderate / Controlled</strong>
+                </div>
+                <div class="bar-stack">
+                  <div class="bar-item">
+                    <label>Endpoint Defense</label>
+                    <div class="bar"><span style="width: 92%"></span></div>
+                  </div>
+                  <div class="bar-item">
+                    <label>Identity Security</label>
+                    <div class="bar"><span style="width: 88%"></span></div>
+                  </div>
+                  <div class="bar-item">
+                    <label>Vulnerability Response</label>
+                    <div class="bar"><span style="width: 84%"></span></div>
+                  </div>
+                </div>
+
+                <div class="incident-box">
+                  <div class="incident-head">
+                    <span>Critical Alerts</span>
+                    <span class="pill">3</span>
+                  </div>
+                  <ul>
+                    <li>Privilege escalation watch</li>
+                    <li>Credential abuse pattern</li>
+                    <li>API abuse detection</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="metrics">
+          <div class="container metric-grid">
+            <div class="metric-card">
+              <span class="metric-label">Threat Intel</span>
+              <strong>Real-time</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Security Score</span>
+              <strong>86/100</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Response Time</span>
+              <strong>&lt; 15 min</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Recovery Readiness</span>
+              <strong>Prepared</strong>
+            </div>
+          </div>
+        </section>
+
+        <section id="solutions" class="section-block">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow alt">What we deliver</span>
+              <h2>Purpose-built cyber defense capabilities.</h2>
+            </div>
+
+            <div class="card-grid">
+              <article class="service-card">
+                <div class="icon">01</div>
+                <h3>Threat Intelligence</h3>
+                <p>
+                  Continuous monitoring of emerging adversary behavior, risk patterns,
+                  and evolving attack surfaces.
+                </p>
+              </article>
+
+              <article class="service-card">
+                <div class="icon">02</div>
+                <h3>Detection & Response</h3>
+                <p>
+                  Operational monitoring for suspicious activity, escalation processes,
+                  and fast incident triage.
+                </p>
+              </article>
+
+              <article class="service-card">
+                <div class="icon">03</div>
+                <h3>Identity Security</h3>
+                <p>
+                  MFA enforcement, least-privilege architecture, and regular access review
+                  to reduce credential abuse exposure.
+                </p>
+              </article>
+
+              <article class="service-card">
+                <div class="icon">04</div>
+                <h3>Infrastructure Hardening</h3>
+                <p>
+                  Secure configuration, patch discipline, and resilient system design to
+                  reduce controllable risk.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="capabilities" class="section-block dark-panel">
+          <div class="container split-layout">
+            <div>
+              <span class="eyebrow alt">Operational model</span>
+              <h2>Structured for resilience, clarity, and high-confidence defense.</h2>
+            </div>
+
+            <div class="feature-list">
+              <div class="feature-item">
+                <span class="feature-tag">01</span>
+                <div>
+                  <h4>Attack Surface Review</h4>
+                  <p>Identify exposure points and align controls with real-world risk.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-tag">02</span>
+                <div>
+                  <h4>Security Controls</h4>
+                  <p>Define robust identity, network, and endpoint protections.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-tag">03</span>
+                <div>
+                  <h4>Response Planning</h4>
+                  <p>Prepare escalation pathways, containment steps, and recovery actions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="operations" class="section-block">
+          <div class="container">
+            <div class="section-heading narrow">
+              <span class="eyebrow alt">Security operations</span>
+              <h2>Built around a disciplined cyber defense workflow.</h2>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-step">01</span>
+                <div>
+                  <h4>Prepare</h4>
+                  <p>Verify controls, access policies, backups, and security documentation.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-step">02</span>
+                <div>
+                  <h4>Detect</h4>
+                  <p>Monitor for suspicious behavior, anomalies, and malicious activity.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-step">03</span>
+                <div>
+                  <h4>Respond</h4>
+                  <p>Contain impact, remove persistence, and coordinate rapid remediation.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-step">04</span>
+                <div>
+                  <h4>Recover</h4>
+                  <p>Restore service, verify integrity, and strengthen future defenses.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer">
+        <div class="container footer-wrap">
+          <div>
+            <div class="brand footer-brand">
+              <span class="brand-mark">A</span>
+              <span class="brand-text">Aegis Defense</span>
+            </div>
+            <p>Cyber defense strategy for modern digital infrastructure.</p>
+          </div>
+          <div class="footer-links">
+            <a href="README.md">Overview</a>
+            <a href="SECURITY.md">Security Policy</a>
+            <a href="scripts/security_dashboard.py">Dashboard</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
