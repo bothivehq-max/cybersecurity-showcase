@@ -1,0 +1,15 @@
+docs/incident-response-matrix.md
+
+# Incident Response Matrix
+
+| Phase | Focus Area | Example Action |
+|---|---|---|
+| Preparation | Controls and readiness | Validate MFA, backups, and escalation paths |
+| Detection | Monitoring | Review authentication anomalies and endpoint alerts |
+| Analysis | Triage | Identify scope, affected systems, and impact |
+| Containment | Isolation | Remove access, block malicious flow, isolate affected assets |
+| Eradication | Remediation | Remove persistence, patch systems, reset credentials |
+| Recovery | Restore service | Bring systems back online and validate integrity |
+| Lessons Learned | Improvement | Update detection logic and response procedures |
+
+This matrix supports a mature defense narrative and aligns with applied cyber operations thinking.

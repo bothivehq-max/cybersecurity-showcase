@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Defense Command Center</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <div class="badge-row">
+          <span class="badge">Cybersecurity Portfolio</span>
+          <span class="badge accent">Operational Defense</span>
+        </div>
+        <h1>Cyber Defense Command Center</h1>
+        <p>
+          Security operations, identity assurance, threat awareness, and risk reduction designed for a premium GitHub presence.
+        </p>
+        <div class="cta-row">
+          <a href="README.md" class="btn primary">Repository Overview</a>
+          <a href="scripts/security_dashboard.py" class="btn secondary">Run Dashboard</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="metrics">
+        <div class="metric-card">
+          <span class="label">Security Score</span>
+          <strong>86/100</strong>
+        </div>
+        <div class="metric-card">
+          <span class="label">Risk Posture</span>
+          <strong>Moderate</strong>
+        </div>
+        <div class="metric-card">
+          <span class="label">Threat Awareness</span>
+          <strong>Active</strong>
+        </div>
+        <div class="metric-card">
+          <span class="label">Readiness</span>
+          <strong>Prepared</strong>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Mission Focus</h2>
+        <div class="focus-grid">
+          <article class="focus-item">
+            <h3>Threat Intelligence</h3>
+            <p>Monitoring emerging risks and identifying common adversary behavior patterns.</p>
+          </article>
+          <article class="focus-item">
+            <h3>Defensive Controls</h3>
+            <p>Hardening identity, endpoints, and internet-facing services against abuse.</p>
+          </article>
+          <article class="focus-item">
+            <h3>Monitoring</h3>
+            <p>Reviewing authentication anomalies, access events, and system-level indicators.</p>
+          </article>
+          <article class="focus-item">
+            <h3>Resilience</h3>
+            <p>Preparing response plans, recovery workflows, and continuity strategies.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Priority Actions</h2>
+        <ul class="checklist">
+          <li>Enforce MFA and just-in-time administrative access.</li>
+          <li>Review privilege boundaries and stale credentials.</li>
+          <li>Patch vulnerable systems and public services quickly.</li>
+          <li>Monitor telemetry, authentication anomalies, and access alerts.</li>
+          <li>Keep response triggers, escalation plans, and backup testing ready.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
