@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VantaSecure | Fintech Security</title>
+    <meta
+      name="description"
+      content="VantaSecure is a luxury fintech security brand portfolio showcasing cyber defense, trust, and resilient infrastructure."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="backdrop-glow glow-one"></div>
+    <div class="backdrop-glow glow-two"></div>
+
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="VantaSecure brand">
+          <span class="brand-mark">V</span>
+          <span class="brand-text">VantaSecure</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#platform">Platform</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#operations">Operations</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="README.md" class="nav-btn">View Repo</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">FINTECH CYBER DEFENSE</div>
+            <h1>Trust, security, and signal at scale.</h1>
+            <p>
+              VantaSecure protects high-value digital systems with premium security
+              operations, identity assurance, and resilient defense infrastructure for
+              modern financial and digital-first businesses.
+            </p>
+
+            <div class="cta-row">
+              <a href="#platform" class="btn btn-primary">Explore Platform</a>
+              <a href="scripts/security_dashboard.py" class="btn btn-secondary">Run Dashboard</a>
+            </div>
+
+            <ul class="trust-list">
+              <li>
+                <strong>24/7</strong>
+                <span>monitoring</span>
+              </li>
+              <li>
+                <strong>99.9%</strong>
+                <span>availability</span>
+              </li>
+              <li>
+                <strong>Zero Trust</strong>
+                <span>by design</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Financial security dashboard">
+            <div class="panel-topbar">
+              <span class="panel-dot green"></span>
+              <span>VantaSecure / command</span>
+            </div>
+
+            <div class="panel-body">
+              <div class="status-head">
+                <span>Portfolio score</span>
+                <strong>92 / 100</strong>
+              </div>
+
+              <div class="score-ring">
+                <div class="ring-inner">
+                  <span>Secure</span>
+                </div>
+              </div>
+
+              <div class="mini-stats">
+                <div>
+                  <label>Threat visibility</label>
+                  <strong>High</strong>
+                </div>
+                <div>
+                  <label>Identity posture</label>
+                  <strong>Protected</strong>
+                </div>
+              </div>
+
+              <div class="alert-box">
+                <div class="alert-header">
+                  <span>Priority Activity</span>
+                  <span class="alert-count">3</span>
+                </div>
+                <ul>
+                  <li>Privileged access review</li>
+                  <li>API abuse monitoring</li>
+                  <li>Credential anomaly detection</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics">
+        <div class="container metric-grid">
+          <div class="metric-card">
+            <span class="metric-label">Risk posture</span>
+            <strong>Controlled</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Identity</span>
+            <strong>Protected</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Response</span>
+            <strong>&lt; 15 min</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Resilience</span>
+            <strong>Ready</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="platform" class="section-block">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow alt">Platform</span>
+            <h2>Luxury-grade cyber resilience for digital trust.</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="feature-card">
+              <div class="feature-index">01</div>
+              <h3>Threat Intelligence</h3>
+              <p>Actionable visibility into emerging adversary patterns and high-risk exposure vectors.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-index">02</div>
+              <h3>Identity Assurance</h3>
+              <p>Privileged access governance, MFA, and least-privilege structures with strong verification.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-index">03</div>
+              <h3>Infrastructure Hardening</h3>
+              <p>Secure architecture decisions and patch discipline designed to reduce controllable exposure.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-index">04</div>
+              <h3>Operational Response</h3>
+              <p>Practical escalation, response, and recovery models for disciplined cyber defense.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="solutions" class="section-block split-panel">
+        <div class="container split-layout">
+          <div>
+            <span class="eyebrow alt">Solutions</span>
+            <h2>Operating at the intersection of trust, fintech, and security.</h2>
+          </div>
+
+          <div class="solution-list">
+            <div class="solution-item">
+              <span>01</span>
+              <div>
+                <h4>Digital Trust Architecture</h4>
+                <p>Build secure platform foundations for high-confidence digital experiences.</p>
+              </div>
+            </div>
+            <div class="solution-item">
+              <span>02</span>
+              <div>
+                <h4>Transaction Security</h4>
+                <p>Monitor abuse patterns, reduce attack paths, and protect critical financial workflows.</p>
+              </div>
+            </div>
+            <div class="solution-item">
+              <span>03</span>
+              <div>
+                <h4>Governance & Compliance</h4>
+                <p>Maintain disciplined security controls, operational proof, and response readiness.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="operations" class="section-block">
+        <div class="container">
+          <div class="section-heading narrow">
+            <span class="eyebrow alt">Operational model</span>
+            <h2>Precise execution across detection, defense, and recovery.</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="time-index">01</span>
+              <div>
+                <h4>Prepare</h4>
+                <p>Verify controls, privileges, backups, and incident readiness.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="time-index">02</span>
+              <div>
+                <h4>Observe</h4>
+                <p>Track suspicious activity, privilege shifts, and anomaly patterns.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="time-index">03</span>
+              <div>
+                <h4>Contain</h4>
+                <p>Limit the blast radius and isolate attack paths quickly.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="time-index">04</span>
+              <div>
+                <h4>Recover</h4>
+                <p>Restore services and strengthen future resilience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">V</span>
+            <span class="brand-text">VantaSecure</span>
+          </div>
+          <p>Luxury-grade security for digital trust and institutional resilience.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="README.md">Overview</a>
+          <a href="SECURITY.md">Security Policy</a>
+          <a href="scripts/security_dashboard.py">Dashboard</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
